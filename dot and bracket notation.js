@@ -8,4 +8,4 @@ const person = {
 
 console.log(person["person hobbies"]);
 person[key] = "bhardwajshivam32@gmail.com";
-console.log(person); 
+console.log(person);
