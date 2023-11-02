@@ -24,7 +24,25 @@ function sumTwoNumbers(number1, number2, number3){
 // input : string
 // output : firstcharacter
 
-function firstChar(anyString){
-    return anyString[0];
+// function firstChar(anyString){
+//     return anyString[0];
+// }
+// console.log(firstChar("zbd"));
+
+
+// function
+// input : Array, target (number)
+// output : index of target if target present in Array
+
+function findTarget(array, target){
+    for(let i = 0; i<array.length; i++){
+        if(array[i]===target){
+            return i;
+        }
+    }
+    return -1;
 }
-console.log(firstChar("zbd"));
+const myArray = [1,3,8,90]
+const ans = findTarget(myArray, 3);
+console.log(ans);
+
